@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockreport</title>
+    <script>
+function Generate(){
+ var itemname1=parseInt(document.getElementById("products1").value);
+ localStorage.setItem("firstitemname",itemname1);
+ var op1=parseInt(document.getElementById("opbal1").value);
+ if(isNaN(op1)) op1=0;
+ localStorage.setItem("oplocal1",op1);
+ var op2=parseInt(document.getElementById("opbal2").value);
+ if(isNaN(op2)) op2=0;
+ localStorage.setItem("oplocal2",op2);
+ var op3=parseInt(document.getElementById("opbal3").value);
+ if(isNaN(op3)) op3=0;
+ localStorage.setItem("oplocal3",op3);
+ var op4=parseInt(document.getElementById("opbal4").value);
+ if(isNaN(op4)) op4=0;
+ localStorage.setItem("oplocal4",op4);
+ var op5=parseInt(document.getElementById("opbal5").value);
+ if(isNaN(op5)) op5=0;
+ localStorage.setItem("oplocal5",op5);
+ var op6=parseInt(document.getElementById("opbal6").value);
+ if(isNaN(op6)) op6=0;
+ localStorage.setItem("oplocal6",op6);
+ var op7=parseInt(document.getElementById("opbal1").value);
+ if(isNaN(op7)) op7=0;
+ localStorage.setItem("oplocal7",op7);
+ 
+ for (let index = 8; index < array.length; index++) {
+     
+ }
+ 
+ 
+}
+
+
+    </script>
+</head>
+<body>
+    <center><h1 style="color: blue;">Stock Report</h1></center>
+    <form  action="report.html">
+    
+   1 <select class="productsname" name="products1" id="products1">
+        <option id="urea" value="0">urea</option>          
+        <option id="DAP" value="1">D.A.P</option>
+        <option id="20200013" value="2">20:20:00:13</option>
+        <option id="102626" value="3">10:26:26</option>
+        <option id="16200013" value="4">16:20:00:13</option>
+        <option id="143514" value="5">14:35:14</option>
+        <option id="282800" value="6">28:28:00</option>
+        <option id="151515" value="7">15:15:15</option>
+        <option id="161616" value="8">16:16:16</option>
+        <option id="SSP" value="9">S.S.P</option>
+        <option id="MOP" value="10">M.O.P</option>
+        <option id="none"value="11">None</option>
+    </select>
+<input id="opbal1" placeholder="o/p bal"></input>
+<input id="recepits1" placeholder="recepits"></input>
+<input id="total1" placeholder="total"></input>
+<input id="sales1" placeholder="sales"></input>
+<input id="closingbal1" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+2 <select class="productsname" name="products1" id="products2">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal2" placeholder="o/p bal"></input>
+<input id="recepits2" placeholder="recepits"></input>
+<input id="total2" placeholder="total"></input>
+<input id="sales2" placeholder="sales"></input>
+<input id="closingbal2" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+3 <select class="productsname" name="products1" id="products3">
+   <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal3" placeholder="o/p bal"></input>
+<input id="recepits3" placeholder="recepits"></input>
+<input id="total3" placeholder="total"></input>
+<input id="sales3" placeholder="sales"></input>
+<input id="closingbal3" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+4 <select class="productsname" name="products1" id="products4">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+<input id="opbal4" placeholder="o/p bal"></input>
+<input id="recepits4" placeholder="recepits"></input>
+<input id="total4" placeholder="total"></input>
+<input id="sales4" placeholder="sales"></input>
+<input id="closingbal4" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+5 <select class="productsname" name="products1" id="products5">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+<input id="opbal5" placeholder="o/p bal"></input>
+<input id="recepits5" placeholder="recepits"></input>
+<input id="total5" placeholder="total"></input>
+<input id="sales5" placeholder="sales"></input>
+<input id="closingbal5" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+6 <select class="productsname" name="products1" id="products6">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal6" placeholder="o/p bal"></input>
+<input id="recepits6" placeholder="recepits"></input>
+<input id="total6" placeholder="total"></input>
+<input id="sales6" placeholder="sales"></input>
+<input id="closingbal6" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+7 <select class="productsname" name="products1" id="products7">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal7" placeholder="o/p bal"></input>
+<input id="recepits7" placeholder="recepits"></input>
+<input id="total7" placeholder="total"></input>
+<input id="sales7" placeholder="sales"></input>
+<input id="closingbal7" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+8<select class="productsname" name="products1" id="products8">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+<input id="opbal8" placeholder="o/p bal"></input>
+<input id="recepits8" placeholder="recepits"></input>
+<input id="total8" placeholder="total"></input>
+<input id="sales8" placeholder="sales"></input>
+<input id="closingbal8" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+9 <select class="productsname" name="products1" id="products9">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+<input id="opbal9" placeholder="o/p bal"></input>
+<input id="recepits9" placeholder="recepits"></input>
+<input id="total9" placeholder="total"></input>
+<input id="sales9" placeholder="sales"></input>
+<input id="closingbal9" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+10 <select class="productsname" name="products1" id="products10">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal10" placeholder="o/p bal"></input>
+<input id="recepits10" placeholder="recepits"></input>
+<input id="total10" placeholder="total"></input>
+<input id="sales10" placeholder="sales"></input>
+<input id="closingbal10" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+11 <select class="productsname" name="products1" id="products11">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal11" placeholder="o/p bal"></input>
+<input id="recepits11" placeholder="recepits"></input>
+<input id="total11" placeholder="total"></input>
+<input id="sales11" placeholder="sales"></input>
+<input id="closingbal11" placeholder="closing balance"></input>
+<br/><br/><br/>
+12<select class="productsname" name="products1" id="products12">
+    <option id="urea" value="0">urea</option>          
+    <option id="DAP" value="1">D.A.P</option>
+    <option id="20200013" value="2">20:20:00:13</option>
+    <option id="102626" value="3">10:26:26</option>
+    <option id="16200013" value="4">16:20:00:13</option>
+    <option id="143514" value="5">14:35:14</option>
+    <option id="282800" value="6">28:28:00</option>
+    <option id="151515" value="7">15:15:15</option>
+    <option id="161616" value="8">16:16:16</option>
+    <option id="SSP" value="9">S.S.P</option>
+    <option id="MOP" value="10">M.O.P</option>
+    <option id="none"value="11">None</option>
+</select>
+
+<input id="opbal12" placeholder="o/p bal"></input>
+<input id="recepits12" placeholder="recepits"></input>
+<input id="total12" placeholder="total"></input>
+<input id="sales12" placeholder="sales"></input>
+<input id="closingbal12" placeholder="closing balance"></input>
+<br/><br/><br/>
+
+<center><input type="submit" value="Generate" onclick="Generate();"/></center>
+    </form>
+</body>
+</html>
